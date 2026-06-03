@@ -11,7 +11,24 @@ React + Vite 기반의 모바일 우선 웹앱입니다. 학생이 QR로 접속�
 - 아이돌 포토카드 느낌의 결과 카드
 - `html2canvas`를 이용한 PNG 저장
 
-## 실행 방법
+## GitHub에서 바로 배포하기
+
+이 저장소에는 GitHub Pages 자동 배포 설정이 들어 있습니다.
+
+1. GitHub 저장소에서 `Settings` 메뉴를 엽니다.
+2. 왼쪽 메뉴에서 `Pages`를 누릅니다.
+3. `Build and deployment`의 `Source`를 `GitHub Actions`로 선택합니다.
+4. 저장소 상단의 `Actions` 메뉴로 이동합니다.
+5. `Deploy to GitHub Pages` 작업이 끝날 때까지 기다립니다.
+6. 배포가 끝나면 아래 주소로 접속합니다.
+
+```text
+https://deepseamath.github.io/golden-ratio-photo-lab/
+```
+
+이 주소를 QR 코드로 만들면 학생들이 접속할 수 있습니다.
+
+## 로컬 실행 방법
 
 1. Node.js를 설치합니다.
    - 처음이라면 [Node.js 공식 사이트](https://nodejs.org/)에서 LTS 버전을 설치하면 됩니다.
